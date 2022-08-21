@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+/* a{
+    color: black !important;
+} */
+
+/* .brand-logo,h2{
+    font-family: 'Grand Hotel', cursive;
+} */
+
+/* toast */
+#toast-container{
+    bottom: 30px !important;
+    right: 20px !important;
+    left: auto !important;
+}
+
+.input-field input[type=text][type=password]:focus{
+    border-bottom: 1px solid rgb(8, 93, 252) !important;
+    box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+}
+
+.material-icons:hover{
+    cursor: pointer;
+}
+
+.collection li{
+    width:100%;
+}
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-wrapper{
+    position: sticky;
+    padding: 0 30%;
+  }
+  a{
+    color: black !important;
+  }
+  .brandLogo{
+    float: left;
+    font-family: 'Grand Hotel', cursive;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0;
+  }
+  .icons{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  .navBar{
+    z-index: 100;
+    position:fixed;
+    top: 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .right_Nav{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .right_Nav2{
+    display: none;
+  }
+  .cntiner{
+    margin-top: 80px;
+ }
+ .logOutbtn{
+  font-weight: 500;
+   padding: 10px;
+   width: 100%;
+   text-transform: capitalize;
+   border-radius: 5px;
+   border: 0;
+   background-color: rgb(90, 156, 255);
+ }
+ .logOutbtn2{
+  font-weight: 500;
+  display: none;
+  float: right;
+  padding: 10px;
+  margin: auto;
+  align-self: center;
+  margin-top: 7px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(90, 156, 255);
+}
+.modal{
+  width: 90%;
+  max-height: 400px;
+  border-radius: 25px;
+}
+.modal-footer{
+  position: sticky;
+  bottom: 0;
+  left: 0;
+}
+/* -----------------------------------------------Profile Page Section --------------------------- */
+.profilePage{
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  padding: 5px 40px;
+  /* border-bottom: 1px solid #cacaca; */
+}
+.ProfilePic{
+  object-fit: cover;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+.Gallary{
+   border-top: 1px solid #cacaca;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+.item{
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+}
+/* ---------------------------------------------------Home js CSS ------------------------------- */
+
+.Post-top_Section{
+  width: 100%;
+  padding: 10px 7px;
+  display: flex;
+}
+.Post-top_Section > span{
+  width: 100%;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin-left: 5px;
+  padding-top:1% ;
+}
+.HpPic{
+  cursor:none;
+  object-fit: cover;
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+
+}
+.deleteBTn{
+  float: right;
+}
+.card-actions > i{
+  margin-right: 10px;
+}
+.likes{
+  font-weight: 550;
+  font-size: 14px;
+}
+.caption{
+  margin-top: 5px;
+  font-size: 14px;
+}
+.captioner{
+  font-weight: 550;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.commentSection{
+  cursor: pointer;
+  width: 100%;
+  max-height: 55px;
+  overflow: hidden;
+  border-bottom: 1px #cacaca solid;
+  padding: 5px 0px;
+  /* background-color: violet; */
+}
+.AddComment {
+  display: flex;
+  width: 100%;
+  /* background-color: aquamarine; */
+}
+.AddComment > button{
+  font-size: 12px;
+  color: rgba(0, 0, 255, 0.577);
+  font-weight: 550;
+  margin: 10px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 0;
+}
+
+/* -----------------------------------Create Post PAge ----------------------------------  */
+.profiletab{
+  align-self: center;
+  max-width: 500px;
+  text-align: center;
+  border: 1px solid #cacaca;
+  margin: auto;
+  margin-top: 20px;
+}
+.previewImage{
+  object-fit: cover;
+  max-width: 500px;
+  max-height: 400px;
+}
+.label{
+  float: left;
+  color: rgb(20, 20, 20); 
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width : 900px){
+  .nav-wrapper{
+    padding: 0 10%;
+    height: max-content;
+  }
+  .right_Nav{
+    display: none;
+  }
+  .right_Nav2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+  }
+  .logOutbtn2{
+    display: block;
+  }
+  #toast-container{
+     width: 100% !important;
+  }
+}

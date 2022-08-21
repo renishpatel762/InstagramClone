@@ -1,0 +1,22 @@
+.home-card{
+    max-width: 500px;
+    height: max-content;
+    margin: 26px auto;
+    border-radius: 2px;
+
+}
+.cntiner{
+    margin-top: 80px;
+}
+/* @media only screen and (max-width : 600px) {
+    .card-image{
+        object-fit: cover;
+        max-height: 400px;
+    }
+    .card-content{
+        z-index: 10;
+    }
+    .card-actions{
+        z-index: 10;
+    }
+} */

@@ -1,0 +1,82 @@
+.brand-logo{
+    font-family: 'Grand Hotel', cursive;
+    cursor: pointer;
+    margin-bottom: 35px;
+  }
+.My-container{
+    align-items: center;
+ }
+ .Logincard{
+   margin: auto;
+   width: 35%;
+   height: max-content;
+   padding: 2%;
+   margin-top: 2%;
+ }
+ label{
+   font-weight: 550;
+   color: black;
+   font-size: 18px;
+ }
+ .LoginBtn{
+   padding: 10px;
+   min-width: 25%;
+   margin: auto;
+   margin-top: 10px;
+   border: 0;
+   background-color: rgb(90, 156, 255);
+   font-weight: 550;
+   border-radius: 5px;
+ }
+ input[type=text]:focus {
+   border-bottom: 2px solid #457aff !important;
+   box-shadow: 0 1px 0 0 #457aff !important; 
+ }
+ input[type=password]:focus{
+   border-bottom: 2px solid #457aff !important;
+   box-shadow: 0 1px 0 0 #457aff !important; 
+ }
+ .profilePic{
+    object-fit:cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+ }
+ .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Upload Profile Pic';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    /* border: 1px solid #999; */
+    border-radius: 3px;
+    padding: 5px 80px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #457aff;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+  .custom-file-input:hover::before {
+    border-color: black;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+  #toast-container{
+    bottom: 60px !important;
+    right: 20px !important;
+    left: auto !important;
+  }
+  @media  only screen and (max-width: 900px) {
+     .Logincard{
+      width: 95%;
+      margin: 10px;
+      padding-top: 10%;
+     }
+  }

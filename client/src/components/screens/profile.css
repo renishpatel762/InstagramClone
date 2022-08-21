@@ -1,0 +1,77 @@
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item{
+  width:30%;
+  object-fit: cover;
+}
+.mainDiv{
+  max-width: 800px;
+  margin: 80px auto;
+}
+.profilePage{
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  padding: 5px 40px;
+  /* border-bottom: 1px solid #cacaca; */
+}
+.ProfilePic{
+  object-fit: cover;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+.Gallary{
+   border-top: 1px solid #cacaca;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+/* .item{
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+} */
+.ContentContainer{
+  padding: 20px;
+  padding-left: 60px;
+}
+@media  only screen and (max-width : 800px) {
+  .item{
+    margin: 7.5px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  .profilePage{
+    padding: 0px 10px;
+  }
+  .ProfilePic{
+    width: 80px;
+    height: 80px;
+  }
+  .ContentContainer{
+    padding: 5px;
+    padding-left: 20px;
+  }
+}
+@media  only screen and (max-width : 350px){
+  .item{
+    margin: 5px;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+  }
+}
+@media  only screen and (max-width : 300px){
+  .item{
+    margin: 5px 25px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+}
